@@ -11,7 +11,7 @@ black = Color(0x000000,1)
 
 blackoutline = LineStyle(1,black)
 
-roof = PolygonAsset([(60,120), (240,120), (150,60)], blackoutline, red)
+roof = PolygonAsset([(50,120), (250,120), (150,60)], blackoutline, red)
 house = RectangleAsset(180,100, blackoutline, tan)
 window = RectangleAsset(40,40, blackoutline, blue)
 window2 = RectangleAsset(40,40, blackoutline, blue)
